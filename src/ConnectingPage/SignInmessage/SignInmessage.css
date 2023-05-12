@@ -1,0 +1,169 @@
+
+
+@font-face {
+  font-family: satoshi;
+  src: url("../../Component/Font/Satoshi-Variable.ttf");
+}
+
+
+
+.signin-page{
+ 
+    flex: 1 0 auto; 
+    padding-bottom: 24px;
+    max-width: 100%;
+    height: 100vh;
+   
+    min-height: 0px;
+    min-width: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+}
+.sign-container{
+    max-width: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+.logo-sign{
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    align-items: stretch;
+    padding: 24px;
+    justify-content: center;
+    height: 18vh;
+    margin-bottom: 24px;
+}
+.center{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 24px;
+   
+}
+.center-1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+     height: 62vh;
+}
+.btn-1{
+    font-size: 54px;
+    font-family: satoshi;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+.btn-2{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: satoshi;
+    margin-bottom: 24px;
+}
+.sign-btn{
+    background-color: rgb(54, 54, 54);
+    height: 48px;
+    color: white;
+    border: 1px solid transparent;
+    min-width: 100%;
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-family: satoshi;
+}
+.disconnect-btn{
+    background-color: rgb(233, 233, 233);
+    height: 48px;
+    color: rgb(0, 0, 0);
+    border: 1px solid transparent;
+    min-width: 100%;
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-family: satoshi;
+}
+.btn{
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 24px;
+    grid-auto-flow: column;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #d6d6d6;
+
+    
+}
+.bottom{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   
+}
+.bottom-item{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.inc {
+    margin: 8px 16px;
+    font-family: satoshi;
+    color: rgb(121, 121, 121);
+}
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 16px;
+    
+}
+.community-1{
+    color: rgb(121, 121, 121);
+    margin: 4px 12px;
+    font-family: satoshi;
+}
+.community-1:hover{
+    color: #d6d6d6;
+}
+.community-2{
+    color: rgb(121, 121, 121);
+    margin: 4px 12px;
+    font-family: satoshi;
+}
+
+.community-3{
+    margin: 4px 12px;
+    color: rgb(121, 121, 121);
+    font-family: satoshi;
+}
+
+.darkmood{
+    color: rgb(121, 121, 121);
+    margin: 8px 12px;
+    text-align: center;
+    font-family: satoshi;
+
+}
+.light-mood {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mood {
+    background-color: black;
+    color: white;
+  }
+ 
+
